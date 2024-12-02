@@ -11,7 +11,7 @@ async function visualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p');
     paragrafo.classList.add('graficos-container_texto');
-    paragrafo.innerHTML = `Você sabia que o Facebook tem cerca de <span>${formatarNumero(dados.Facebook)}</span> usuários no total?`;
+    paragrafo.innerHTML = `Você sabia que o Douyin tem cerca de <span>${formatarNumero(dados.Douyin)}</span> usuários no total?`;
 
     console.log(paragrafo);
 
